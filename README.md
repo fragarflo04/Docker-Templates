@@ -2,7 +2,7 @@
   <img src="https://1000logos.net/wp-content/uploads/2021/11/Docker-Logo-2013.png" alt="Docker Logo">
 </p>
 
-# Proyecto Docker
+# Ejercicios Docker
 
 ## Desarrollador
 - Francisco José García Flores
