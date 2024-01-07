@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://1000logos.net/wp-content/uploads/2021/11/Docker-Logo-2013.png"  height="50%" alt="Docker Logo">
+  <img src="https://1000logos.net/wp-content/uploads/2021/11/Docker-Logo-2013.png"  height="30%" alt="Docker Logo">
 </p>
 
 # Ejercicios Docker
