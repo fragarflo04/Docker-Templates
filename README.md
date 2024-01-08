@@ -17,4 +17,15 @@ Para crear y ejecutar el contenedor:
 docker build -t kali-desktop:latest .
 docker run -d -p 5901:5901 --name kali-container kali-desktop:latest
 ```
+### 2. Instalación del CMS Strapi
 
+```bash
+docker build -t strapi-cms:latest .
+docker run -d -p 1337:1337 --name strapi-container strapi-cms:latest
+```
+### 3. Instalación del paquete PHPMyAdmin
+
+```bash
+docker build -t phpmyadmin-xampp:latest .
+docker run -d -p 8080:80 --name phpmyadmin-container phpmyadmin-xampp:latest
+```
