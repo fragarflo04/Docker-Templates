@@ -29,3 +29,20 @@ docker run -d -p 1337:1337 --name strapi-container strapi-cms:latest
 docker build -t phpmyadmin-xampp:latest .
 docker run -d -p 8080:80 --name phpmyadmin-container phpmyadmin-xampp:latest
 ```
+
+### 4. Instalación de Portainer mediante ficheros YML
+
+  1. Creamos un nuevo volumen
+      ```bash
+      docker volume create Portainer_data
+      ````
+
+  2. Verificamos que el volumen existe
+     ```bash
+     docker volume ls
+     ```
+     
+  3. Corremos y creamos el contenedor mediante docker compose
+    ```bash
+      docker-compose up -d
+```
