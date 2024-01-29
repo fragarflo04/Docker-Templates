@@ -35,7 +35,7 @@ docker run -d -p 8080:80 --name phpmyadmin-container phpmyadmin-xampp:latest
   1. Creamos un nuevo volumen
       ```bash
       docker volume create Portainer_data
-      ````
+      ```
 
   2. Verificamos que el volumen existe
      ```bash
@@ -45,4 +45,4 @@ docker run -d -p 8080:80 --name phpmyadmin-container phpmyadmin-xampp:latest
   3. Corremos y creamos el contenedor mediante docker compose
     ```bash
       docker-compose up -d
-```
+     ```
