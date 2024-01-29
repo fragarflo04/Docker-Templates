@@ -43,6 +43,6 @@ docker run -d -p 8080:80 --name phpmyadmin-container phpmyadmin-xampp:latest
      ```
      
   3. Corremos y creamos el contenedor mediante docker compose
-    ```bash
-      docker-compose up -d
-     ```
+     ```bash
+      docker-composer up -d
+      ```
